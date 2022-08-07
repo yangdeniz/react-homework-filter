@@ -1,0 +1,18 @@
+.portfolio__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 15px;
+}
+
+.portfolio__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio__item {
+  margin-bottom: 10px;
+}
+
+.portfolio__item img {
+  width: 100%;
+}

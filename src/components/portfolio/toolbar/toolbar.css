@@ -1,0 +1,38 @@
+.portfolio__toolbar {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.portfolio__btn {
+  margin-right: 15px;
+  padding: 10px 25px;
+  background-color: #fff;
+  border: 1px solid #5f5f5f;
+  color: #5f5f5f;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.portfolio__btn:last-child {
+  margin-right: 0;
+}
+
+.portfolio__btn--selected {
+  cursor: default;
+}
+
+.portfolio__btn--selected,
+.portfolio__btn:hover {
+  background-color: #5f5f5f;
+  color: #fff;
+}
+
+.portfolio__btn:hover {
+  box-shadow: 3px 3px 10px #999;
+  transition: all 0.25s;
+}
+
+.portfolio__btn--selected:hover {
+  box-shadow: none;
+}
